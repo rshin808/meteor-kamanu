@@ -14,9 +14,22 @@ Router.route('/', {
   name: 'Home'
 });
 
-Router.route('/list', {
-  name: 'ListStuff'
+Router.route('/Pueo', {
+  name: 'Pueo'
 });
+
+Router.route('/About', {
+  name: 'About'
+});
+
+Router.route('/Aukahi', {
+  name: 'Aukahi'
+});
+
+Router.route('/Kamanu', {
+  name: 'Kamanu'
+});
+
 
 Router.route('/add', {
   name: 'AddStuff'
